@@ -1,5 +1,6 @@
 # Use CUDA 11.2 base image as specified in the installation guide
-FROM runpod/pytorch:2.0.1-py3.10-cuda11.8.0-devel-ubuntu22.04
+FROM runpod/pytorch:2.4.0-py3.11-cuda12.4.1-devel-ubuntu22.04
+
 
 # Set environment variables
 ENV DEBIAN_FRONTEND=noninteractive
